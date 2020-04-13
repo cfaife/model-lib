@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	   
+	   <DUMMY ID="1" ACTIVE="1" DATE_CREATED="2019-11-25 11:32:25"
+		CREATED_BY="1" DATE_UPDATED="2019-11-28 12:22:15" UPDATED_BY="1"
+		PROPERTY_VALUE="some value" />
+
+</dataset>

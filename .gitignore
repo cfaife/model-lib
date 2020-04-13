@@ -1,0 +1,5 @@
+dao-lib/target/
+entity-lib/target/
+.settings/
+.classpath
+.project

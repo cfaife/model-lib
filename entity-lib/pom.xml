@@ -1,0 +1,117 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>mz.co.computinglabs.lucros</groupId>
+    <artifactId>model-lib</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>entity-lib</artifactId>
+  
+  	<properties>
+		<spring-version>5.2.5.RELEASE</spring-version>
+		<hibernate-version>5.4.9.Final</hibernate-version>
+		<hibernate-validator-version>6.1.0.Final</hibernate-validator-version>
+		<hibernate-search-version>5.11.3.Final</hibernate-search-version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>${spring-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${spring-version}</version>
+		</dependency>
+
+		<!-- hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>${hibernate-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-ehcache</artifactId>
+			<version>${hibernate-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>${hibernate-validator-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.javax.persistence</groupId>
+			<artifactId>hibernate-jpa-2.1-api</artifactId>
+			<version>1.0.2.Final</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-search-orm</artifactId>
+			<version>${hibernate-search-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-search-elasticsearch</artifactId>
+			<version>${hibernate-search-version}</version>
+		</dependency>
+
+		<!-- spring test -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>${spring-version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- spring test dbunit -->
+		<dependency>
+			<groupId>com.github.springtestdbunit</groupId>
+			<artifactId>spring-test-dbunit</artifactId>
+			<version>1.3.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- hsqlDB -->
+		<dependency>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<version>2.5.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- dbunit -->
+		<dependency>
+			<groupId>dbunit</groupId>
+			<artifactId>dbunit</artifactId>
+			<version>2.2</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.dbunit</groupId>
+			<artifactId>dbunit</artifactId>
+			<version>2.6.0</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+</project>
