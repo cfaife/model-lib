@@ -1,4 +1,4 @@
-package mz.co.computinglabs.lucros.dao;
+package mz.co.computinglabs.modellib.dao;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -14,8 +14,9 @@ import org.springframework.test.context.transaction.TransactionalTestExecutionLi
 import com.github.springtestdbunit.DbUnitTestExecutionListener;
 import com.github.springtestdbunit.annotation.DatabaseSetup;
 
-import mz.co.computinglabs.lucros.ConfigurationTest;
-import mz.co.computinglabs.lucros.entity.DummyEntity;
+import mz.co.computinglabs.modellib.ConfigurationTest;
+import mz.co.computinglabs.modellib.dao.IGenericDAO;
+import mz.co.computinglabs.modellib.entity.DummyEntity;
 
 
 @RunWith(SpringRunner.class)

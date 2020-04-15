@@ -1,4 +1,4 @@
-package mz.co.computinglabs.lucros.dao;
+package mz.co.computinglabs.modellib.dao;
 
 import java.time.LocalDateTime;
 import java.util.Collection;
@@ -9,7 +9,7 @@ import javax.persistence.Query;
 
 import org.springframework.stereotype.Repository;
 
-import mz.co.computinglabs.lucros.entity.AbstractEntity;
+import mz.co.computinglabs.modellib.entity.AbstractEntity;
  
 
 

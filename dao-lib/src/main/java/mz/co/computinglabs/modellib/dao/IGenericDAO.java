@@ -1,4 +1,4 @@
-package mz.co.computinglabs.lucros.dao;
+package mz.co.computinglabs.modellib.dao;
 
 import java.util.Collection;
 

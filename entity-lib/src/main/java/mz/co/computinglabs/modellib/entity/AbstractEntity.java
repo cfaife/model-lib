@@ -1,4 +1,4 @@
-package mz.co.computinglabs.lucros.entity;
+package mz.co.computinglabs.modellib.entity;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

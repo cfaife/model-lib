@@ -1,4 +1,4 @@
-package mz.co.computinglabs.lucros;
+package mz.co.computinglabs.modellib;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,7 +10,7 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.PlatformTransactionManager;
 
 @Configuration
-@ComponentScan("mz.co.computinglabs.lucros")
+@ComponentScan("mz.co.computinglabs.modellib")
 public class ConfigurationTest {
 	@Bean
 	DriverManagerDataSource dataSource() {
