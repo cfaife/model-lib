@@ -3,3 +3,5 @@ entity-lib/target/
 .settings/
 .classpath
 .project
+.metadata/
+RemoteSystemsTempFiles/
