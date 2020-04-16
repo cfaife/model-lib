@@ -6,6 +6,7 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>entity-lib</artifactId>
+  <packaging>jar</packaging>
   
   	<properties>
 		<spring-version>5.2.5.RELEASE</spring-version>
@@ -112,6 +113,8 @@
 			<version>2.6.0</version>
 			<scope>test</scope>
 		</dependency>
+		
+		
 
 	</dependencies>
 </project>
