@@ -5,3 +5,7 @@ entity-lib/target/
 .project
 .metadata/
 RemoteSystemsTempFiles/
+.idea
+model-lib.iml
+entity-lib/entity-lib.iml
+dao-lib/dao-lib.iml
